@@ -430,7 +430,6 @@ a {
   height: 150px;
   background: var(--divider-url) no-repeat center;
   background-size: cover;
-  transform: rotate(2deg);
 }
 
 .about-title {
