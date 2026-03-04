@@ -426,8 +426,9 @@ a {
 
 /* Intro image */
 .hero-intro img {
-  width: 250px;
-  cursor: pointer;
+  width: 450px;
+  image-rendering: crisp-edges;
+  filter: contrast(120%) saturate(110%);
   animation: pulse 1.8s ease-in-out infinite;
   transition: transform 0.3s ease;
 }
@@ -492,7 +493,7 @@ a {
     opacity 0.6s ease;
 }
 
-/* Initial off-screen positions */
+/* Starting offset positions */
 .logo-left {
   transform: translateX(-80px);
 }
@@ -501,13 +502,13 @@ a {
   transform: translateX(80px);
 }
 
-/* Visible center position */
+/* Center (visible) */
 .logo-item.in {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* Reverse state (slide back out) */
+/* Reverse exit */
 .logo-item.out-left {
   transform: translateX(-80px);
   opacity: 0;
