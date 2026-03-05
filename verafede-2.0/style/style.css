@@ -275,12 +275,12 @@ a {
 }
 
 .hero-right {
-  width: 100%;
+  width: 330px;
   max-width: 600px;
-  height: 80vh;
-  min-height: 400px;
+  height: 12vh;
+  min-height: 523px;
   background-image: var(--hero-img);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center right;
 }
